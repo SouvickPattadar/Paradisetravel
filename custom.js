@@ -18,6 +18,12 @@
 		$('html , body').animate({scrollTop: 0},1000);
 		return false;
 	});
+	// Right Click Off
+		 document.addEventListener("contextmenu", (event) => {
+         event.preventDefault();
+      });
+
+  $('img').on('dragstart', function(event) { event.preventDefault(); });
 		
 		});
 	
