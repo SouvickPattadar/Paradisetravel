@@ -15,8 +15,8 @@ h1, h2, h3, h4, h5, h6{
 	border-bottom: 2px solid #fbc707; padding-bottom: 3px;
 }
 .owl-carousel .owl-stage, .owl-carousel.owl-drag .owl-item{
-    -ms-touch-action: auto;
-        touch-action: auto;
+    -ms-touch-action: auto!important;
+        touch-action: auto!important;
 }
 .section-gap{margin-top: 50px;}
 /* btn*/
