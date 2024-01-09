@@ -206,17 +206,20 @@
 			responsive:{
         0:{
             items:1,
-	    touchDrag: true
+	    touchDrag: true,
+	     mouseDrag: false
 			
         },
 				576:{
             items:2,
-	    touchDrag: true			
+	    touchDrag: true ,
+	     mouseDrag: false
           
         },
         768:{
             items:3,
-	    touchDrag: true
+	    touchDrag: true,
+	     mouseDrag: false
         },
         
     }
@@ -238,13 +241,16 @@
 			responsive:{
         0:{
             items:1,
-	    touchDrag: true
+	    touchDrag: true ,
+	     mouseDrag: false
 			
         },
 				768:{
             items:2,
 	    nav:true,
-	    touchDrag: true
+	    touchDrag: true,
+	     mouseDrag: false
+					
           
         },
         992:{
