@@ -185,6 +185,7 @@ border: 1px solid #2a435d; color: #2a435d; padding: 8px; font-size: 14px; border
 	.about-paradiseTravel .about-info .about-info-1 p{font-size: 13px;}
 }
 @media(max-width:767.98px){
+	.query-box .query-form .query-no .phone-icon , .query-box .query-form .form-box .query-submit button {background : #fbc707!important;}
 	.about-paradiseTravel .about-info {background: url(about-img-1.png) no-repeat top; background-size: cover;}
 }
 @media(max-width:575.98px){
