@@ -127,9 +127,9 @@
 
 @media(max-width:450px){
 	.nav-wrapper .lang::after{right: 23px; font-size: 15px;}
-	.nav-wrapper .lang select{width: 80px;}
+	.nav-wrapper .lang select{width: 80px; font-size:14px!important}
 	.nav-wrapper .search-toggle , .nav-wrapper .search-close{float: left!important;}
-	.nav-wrapper .lang {float: left; width: 30%;}
+	.nav-wrapper .lang {float: left; width: 30%; position: relative; right: -24px;}
 	.nav-wrapper .mobile-open{position: relative; right: 20px;}
 }
 
