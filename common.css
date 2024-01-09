@@ -5,6 +5,7 @@
 body{
 	font-family: 'Poppins';
 	color: #2a435d;	
+	touch-action: pinch-zoom;
 	
 }
 h1, h2, h3, h4, h5, h6{
