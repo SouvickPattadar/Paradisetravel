@@ -5,12 +5,13 @@
 body{
 	font-family: 'Poppins';
 	color: #2a435d;	
-	 user-select: none;
-	
-	
+	 user-select: none;		
 }
 h1, h2, h3, h4, h5, h6{
 	font-family: 'rodondo';
+}
+.gt_selector notranslate{
+background: #FBC707!important; color: #ffffff!important; height: 32px 
 }
 .website-headline{
 	font-size: 35px!important; margin-bottom: 0; text-transform: uppercase; display: inline-block;
