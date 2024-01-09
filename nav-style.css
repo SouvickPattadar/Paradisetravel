@@ -118,6 +118,7 @@
 }
 
 @media(max-width:575.98px){
+	.nav-wrapper .search-item{float: right!important; position: relative; left: -22px; top: -4px;}
 	.nav-wrapper .navbar-brand{width: 30%!important;}
 	.nav-wrapper .lang select{width: 95px;}
 	.nav-wrapper .lang::after{right: 25px;}
