@@ -197,6 +197,7 @@
 	       autoplayHoverPause:false,
 			autoplaySpeed: 2000,
            dots: false,
+	   touchDrag: false,
 	      nav:true,	
           loop: true,
 		  rtl: true,
@@ -205,14 +206,17 @@
 			responsive:{
         0:{
             items:1,
+	    touchDrag: true
 			
         },
 				576:{
             items:2,
+	    touchDrag: true			
           
         },
         768:{
-            items:3,  
+            items:3,
+	    touchDrag: true
         },
         
     }
@@ -227,17 +231,20 @@
 			autoplay: false,
            dots: false,
 	      nav:true,	
+	    touchDrag: false,
           loop: true,
 	      items:3,
 		responsiveClass:true,
 			responsive:{
         0:{
             items:1,
+	    touchDrag: true
 			
         },
 				768:{
             items:2,
-			 nav:true,		
+	    nav:true,
+	    touchDrag: true
           
         },
         992:{
