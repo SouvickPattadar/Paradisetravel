@@ -64,6 +64,7 @@ header .right-header ul li a{text-decoration: none;}
 	header .left-header,header .right-header{float: none;text-align: center;} 
 	header .right-header ul {justify-content: center;}
 	header{padding-bottom: 15px;}
+	header .left-header{position :relative ; top:-8px;}
 }
 /* notification */
 .right-header ul li .notify-link{position: relative;cursor: pointer;}
