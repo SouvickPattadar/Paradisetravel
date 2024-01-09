@@ -19,11 +19,11 @@
 		return false;
 	});
 	// Right Click Off
-		// document.addEventListener("contextmenu", (event) => {
-       //  event.preventDefault();
-     // });
+		 document.addEventListener("contextmenu", (event) => {
+         event.preventDefault();
+      });
 
-// $('img').on('dragstart', function(event) { event.preventDefault(); });
+ $('img').on('dragstart', function(event) { event.preventDefault(); });
 		
 		});
 	
