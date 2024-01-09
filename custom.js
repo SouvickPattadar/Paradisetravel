@@ -326,7 +326,7 @@
 			//welcome popup close .welcome-popup .popup-overlay
 			setTimeout(function(){
 				$(".welcome-popup").addClass("popup-show").removeClass("popup-hide");
-			},8000);
+			},10000);
 			
 		});
 	
