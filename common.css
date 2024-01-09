@@ -5,6 +5,7 @@
 body{
 	font-family: 'Poppins';
 	color: #2a435d;	
+	 user-select: none;
 	
 	
 }
